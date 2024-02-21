@@ -22,4 +22,6 @@ git branch -D nombre_rama
 
 git branch -M nuevo_nombre
 
+## Comando para eliminar un archivo del main
 
+ git rm --cached index.html
