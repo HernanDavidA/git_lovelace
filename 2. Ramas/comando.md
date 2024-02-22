@@ -25,3 +25,10 @@ git branch -M nuevo_nombre
 ## Comando para eliminar un archivo del main
 
  git rm --cached index.html
+
+## Comando para crear comandos personalizados 
+
+git config --global alias.lg 'log --oneline'
+
+## Comando para llevar una rama a otra 
+git merge nombre_rama
